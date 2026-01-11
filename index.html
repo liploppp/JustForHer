@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just For You!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="love-animation">
+  <span class="love">💖</span>
+  <span class="love">💕</span>
+  <span class="love">💗</span>
+  <span class="love">💓</span>
+  <span class="love">💝</span>
+  <span class="love">💖</span>
+  <span class="love">💕</span>
+  <span class="love">💗</span>
+  <span class="love">💓</span>
+  <span class="love">💝</span>
+</div>
+
+<div class="container" id="page1">
+  <h1>Just For You!!!</h1>
+  <img src="kucingmelet.jpg" class="avatar">
+  <p>(｡•́︿•̀｡)</p>
+  <button onclick="nextPage(2)">Next! ♡</button>
+</div>
+
+<div class="container hidden" id="page2">
+  <h2>Do you want to open it?</h2>
+  <img src="cat.jpg" class="photo">
+  <div class="btn-group">
+    <button onclick="nextPage(3)">Open it</button>
+    <button onclick="nextPage(5)">No ty</button>
+  </div>
+</div>
+
+<div class="container hidden" id="page3">
+  <h2>🎵 A Song Just For You</h2>
+  <div class="music-player">
+    <img src="https://img.youtube.com/vi/tGv7CUutzqU/maxresdefault.jpg" alt="Song Thumbnail" class="song-thumbnail">
+    <div class="music-icon">🎵</div>
+    <p class="song-title">Your Special Song</p>
+    <a href="https://youtu.be/tGv7CUutzqU" target="_blank" class="play-button">
+      ▶️ Play Song
+    </a>
+  </div>
+  <p class="quote">
+    "This song reminds me of you. Every time I listen to it."
+  </p>
+  <button onclick="nextPage(4)">Next →</button>
+</div>
+
+<div class="container hidden" id="page4">
+  <h2>Our Memories </h2>
+  <div class="gallery">
+    <img src="1.jpeg">
+    <img src="2.jpeg">
+    <img src="3.jpeg">
+    <img src="4.jpeg">
+    <img src="5.jpeg">
+    <img src="6.jpeg">
+  </div>
+  <button onclick="nextPage(6)">Next →</button>
+</div>
+
+<div class="container hidden" id="page5">
+  <h2>Awh... Let's try again? >﹏<</h2>
+  <button onclick="nextPage(1)">Again..? </button>
+</div>
+
+<div class="container hidden" id="page6">
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 20px; padding: 30px; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); max-width: 700px; width: 90%; animation: fadeInScale 1s ease-out 0.3s both;">
+    <h1 style="font-size: clamp(1.5rem, 4vw, 2rem); color: #ff6b8b; margin-bottom: 20px; text-align: center;">
+      I wrote a letter for you...
+    </h1>
+    <div style="background: rgba(255, 255, 255, 0.9); border-radius: 15px; padding: 25px; margin: 20px 0; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); max-width: 600px; text-align: left; line-height: 1.6;">
+      <div style="text-align: center; margin: 20px 0;">
+        <span style="font-size: 24px; margin: 10px;">💖</span>
+        <span style="font-size: 24px; margin: 10px;">💕</span>
+        <span style="font-size: 24px; margin: 10px;">💗</span>
+      </div>
+    </div>
+    <button onclick="nextPage(7)">Next →</button>
+  </div>
+</div>
+
+<div class="container hidden" id="page7">
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 20px; padding: 30px; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); max-width: 700px; width: 90%; animation: fadeInScale 1s ease-out 0.3s both;">
+    <h1 style="font-size: clamp(1.5rem, 4vw, 2rem); color: #ff6b8b; margin-bottom: 20px; text-align: center;">
+      a letter for you
+    </h1>
+    <div style="background: rgba(255, 255, 255, 0.9); border-radius: 15px; padding: 25px; margin: 20px 0; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); max-width: 600px; text-align: left; line-height: 1.6;">
+      <div style="color: #333; font-size: clamp(0.9rem, 2.5vw, 1.1rem); line-height: 1.8;">
+        <p style="color: #333; margin-bottom: 15px;">
+          hey,<br>
+          even though things didn't work out between us, you still matter to me.
+        </p>
+        
+        <p style="color: #333; margin-bottom: 15px;">
+          aku bersyukur pernah kenal kamu dan pernah jadi bagian dari hidup satu sama lain. it was a meaningful chapter, and i don't regret it. apa yang pernah kita lewatin itu tetap punya tempat sendiri buat aku.
+        </p>
+        
+        <p style="color: #333; margin-bottom: 15px;">
+          i still care about you, in a calm and quiet way. mungkin nggak lagi sedeket dulu, tapi rasa pedulinya masih ada. you're still someone i wish good things for, genuinely.
+        </p>
+        
+        <p style="color: #333; margin-bottom: 15px;">
+          i hope everything you're working on goes well. semoga tujuan tujuan kamu satu per satu bisa tercapai, dan usaha kamu nggak sia sia. i hope life treats you kindly and gives you the kind of success that makes you feel fulfilled.
+        </p>
+        
+        <p style="color: #333; margin-bottom: 15px;">
+          i also hope you stay healthy, both physically and mentally. semoga kamu selalu punya cukup tenaga buat ngejalanin hari hari kamu, dan cukup tenang buat nikmatin hidup di tengah semua kesibukan.
+        </p>
+        
+        <p style="color: #333; margin-bottom: 15px;">
+          dan satu hal yang pengen aku sampaikan dengan jujur. sampai sekarang aku masih sayang dan cinta sama kamu. not in a way that asks for anything, just as a feeling that hasn't disappeared.
+        </p>
+        
+        <p style="color: #333; margin-bottom: 15px;">
+          take care ya<br>
+          from someone who always loves you
+        </p>
+        
+        <div style="text-align: center; margin: 25px 0;">
+          <span style="font-size: 24px; margin: 10px;">💝</span>
+          <span style="font-size: 24px; margin: 10px;">💖</span>
+          <span style="font-size: 24px; margin: 10px;">💕</span>
+        </div>
+      </div>
+    </div>
+    <button onclick="nextPage(8)">Next →</button>
+  </div>
+</div>
+
+<div class="container hidden" id="page8">
+  <h2>Thank you for reading! </h2>
+  <p>I hope you reading this special letter for youuu!!!</p>
+  <button onclick="nextPage(1)">Start Over? </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
